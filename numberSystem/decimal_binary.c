@@ -5,12 +5,6 @@ int main(){
 
     printf("Enter A Decimal no less then 256: ");
     scanf("%d", &a);
-// 
-//     if (a > 255) {
-//         printf("You have entered a no greater then 255. Try again");
-//         return 0;
-//     }
-
     for (i = 0; i < 16; i ++) {
         rem[i] = a % 2;
         a = a /2 ;
