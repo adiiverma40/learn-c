@@ -34,9 +34,6 @@ int main()
     arr[sorted] = arr[min_index];
     arr[min_index] = swap;
 
-    if (sorted == 99){
-        break;
-    }
     }
     printf("\n unsorted      sorted \n");
     for(i = 0; i < 100; i ++){
