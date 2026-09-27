@@ -16,9 +16,6 @@ int main()
     printf("\nSorting\n");
     for(sorted = 0 ; sorted < 99; sorted ++)
     {
-        // current_min = arr[sorted];
-        // min_index = sorted;
-
     for(i = 0; i < 99 - sorted ; i ++)
     {
         if (arr[i] > arr[i + 1]){
@@ -27,18 +24,10 @@ int main()
             arr[i] = swap;
 
         }
-
-
-
-    }
-    // swap = arr[sorted];
-    // arr[sorted] = arr[min_index];
-    // arr[min_index] = swap;
-
     }
     printf("\n unsorted      sorted \n");
     for(i = 0; i < 100; i ++){
         printf(" | %d |      | %d | \n", unsorted[i], arr[i]);
     }
 
-}
+}}
