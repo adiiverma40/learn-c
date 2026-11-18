@@ -9,7 +9,7 @@ int main()
 	printf("Enter a no. from 1 to 7 : ");
 	scanf("%d", &c);
 	
-	printf("The day is %s", day[c]);
+	printf("The day is %s", day[c + 1]);
 
 	return 0;
 }
